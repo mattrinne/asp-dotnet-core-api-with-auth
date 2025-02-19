@@ -1,0 +1,6 @@
+services:
+  sample-api:
+    image: "dotnet-sample-api:latest"
+    ports:
+      - "10080:8080"
+      - "10443:8443"
